@@ -1,0 +1,143 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+nav {
+    background-color:  #007bff;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Style the list and remove list styling */
+nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+}
+
+
+/* Style the list items (menu items) */
+nav li {
+    display: inline; /* Display horizontally */
+    margin-right: 20px; /* Add spacing between items */
+}
+
+
+/* Style the links (anchor tags) */
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* Text color */
+    font-weight: bold;
+}
+
+
+/* Change link color on hover */
+nav a:hover {
+    color: #ccc;
+}
+
+
+main{
+    padding: 20px;
+    flex:1;
+}
+table {
+    border-collapse: collapse; /* Merge borders for a cleaner look */
+    width: 100%; /* Make the table fill its container */
+}
+
+
+/* Style table headers (th) */
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* Style table data (td) */
+td {
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+
+/* Add alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Apply some basic styling to the form */
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+/* Style the labels and inputs */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+input, select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.btn {
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    text-decoration: none;
+}
+
+
+/* Change button color on hover */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+
+.btn-danger{
+    background-color: #d63a3a; /* Button background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding around the text */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    text-decoration: none;
+}
+
+
+.btn-danger:hover {
+    background-color: #ad3434;
+}
+.text-danger{
+    color: #d63a3a;
+}
+
+
+footer{
+    background-color: #007bff;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
